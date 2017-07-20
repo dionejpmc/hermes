@@ -1,0 +1,61 @@
+NFe_Util.DLL - Bibilioteca de utilidades para a NF-e nacional
+
+versão 1.7b
+
+2010/07/10 - Alteração das funcionalidades PIS, COFINS e TXT2XML para permitir a informação dos novos CST de PIS/COFINS da IN RFB 109/2010
+2010/07/13 - Correção do tamanho do campo cSelo do grupo IPI que estava sendo truncado indevidamente em 1 dígito
+
+
+versão 1.7a
+
+2010/06/28 - Alteração para gerar as tags qBCProd e vAliqProd para PIS/COFINS se valores forem igual a 0 e CST=99, conforme orientação de preenchimento para emissor optante do Simples Nacional - NT 2009/004
+2010/07/05 - Atualização dos schemas com o PL_005f (NT 2010/005).
+
+versão 1.7
+
+2010/05/03 - Alteração da validação da licença para aceitar a licença da versão 2G
+2010/05/03 - Acréscimo da nova funcionalidade para retornar a versão da chave da licença de uso
+  	     string versaoLicenca(string CNPJ, string licenca), retorna "versão 1.x", "versão 2.x" ou "versão desc  onhecida"
+
+2010/04/20 - Inclusão do código 100 para preenchimento da tag genero com 00, o código 0 ou 00 continua utilizado para omitir a tag genero
+2010/03/26 - Correção na validação do CNPJ na consulta DPEC
+2010/03/26 - Alteração da ordem de validacao do CNPJ na CriaChaveNFe
+
+
+Versão 1.6a
+
+2010/01/05 - Correção do preenchimento do campo vCOFINS para CST=03 na funcionalidade TXT2XML.
+2009/12/18 - Correção da funcionalidade CriaCodigoBarrasContingencia para aceitar CPF e cUF=99 (CNPJ=00000000000000).
+
+
+
+
+
+**************************************************************************************************
+                                  A V I S O     I M P O R T A N T E 
+**************************************************************************************************
+
+Este família de releese sucede a 1.4, todas as manutenção serão realizadas nesta família.
+
+Recomendamos que sempre desregistre a versão anterior, clicando no arquivo desregistra.bat localizada na pasta da versão anterior, antes de registrar a nova versão.
+
+Importante ressaltar que é necessário fazer todo o processo de import type library
+ou registro do componente.
+
+
+**************************************************************************************************
+                                 REPORTE   DE  NÃO CONFORMIDADE/BUG
+**************************************************************************************************
+
+Em caso de idenificação de alguma não conformidade ou bug queira reportar a ocorrência através do e-mail:
+
+                Fale conosco (http://www.flexdocs.com.br/suporte/)
+
+O reporte detalhado da ocorrência, com as circunstâncias detalhadas da ocorrência com screenshots e arquivos envolvidos facilita a identificação e a solução do incidente.
+
+
+**************************************************************************************************
+                               (c) FlexDocs.com.br - todos os direitos reservados.
+**************************************************************************************************
+
+

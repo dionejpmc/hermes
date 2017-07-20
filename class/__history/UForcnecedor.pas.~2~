@@ -1,0 +1,11 @@
+unit UForcnecedor;
+
+interface
+uses upessoa;
+type TFornecedor = class(TPessoa)
+
+end;
+
+implementation
+
+end.

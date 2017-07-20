@@ -1,0 +1,11 @@
+unit UCliente;
+
+interface
+Uses UPessoa;
+type TCliente = Class (TPessoa)
+
+End;
+
+implementation
+
+end.

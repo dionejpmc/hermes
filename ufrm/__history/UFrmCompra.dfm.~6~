@@ -1,0 +1,146 @@
+inherited FrmCompra: TFrmCompra
+  Caption = 'FrmCompra'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LabeledEdit1: TLabeledEdit
+    Left = 8
+    Top = 77
+    Width = 121
+    Height = 21
+    EditLabel.Width = 87
+    EditLabel.Height = 13
+    EditLabel.Caption = 'N'#250'mero da Nota *'
+    TabOrder = 1
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 8
+    Top = 128
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit2'
+    TabOrder = 2
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 136
+    Top = 320
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit3'
+    TabOrder = 3
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 160
+    Top = 77
+    Width = 57
+    Height = 21
+    EditLabel.Width = 33
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Serie *'
+    TabOrder = 4
+  end
+  object LabeledEdit5: TLabeledEdit
+    Left = 248
+    Top = 77
+    Width = 81
+    Height = 21
+    EditLabel.Width = 78
+    EditLabel.Height = 13
+    EditLabel.Caption = 'ID Fornecedor *'
+    TabOrder = 5
+  end
+  object LabeledEdit6: TLabeledEdit
+    Left = 363
+    Top = 77
+    Width = 305
+    Height = 21
+    EditLabel.Width = 30
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Raz'#227'o'
+    TabOrder = 6
+  end
+  object LabeledEdit7: TLabeledEdit
+    Left = 600
+    Top = 160
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit7'
+    TabOrder = 7
+  end
+  object LabeledEdit8: TLabeledEdit
+    Left = 488
+    Top = 208
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit8'
+    TabOrder = 8
+  end
+  object LabeledEdit9: TLabeledEdit
+    Left = 216
+    Top = 232
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit9'
+    TabOrder = 9
+  end
+  object LabeledEdit10: TLabeledEdit
+    Left = 432
+    Top = 272
+    Width = 121
+    Height = 21
+    EditLabel.Width = 67
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit10'
+    TabOrder = 10
+  end
+  object LabeledEdit11: TLabeledEdit
+    Left = 416
+    Top = 320
+    Width = 121
+    Height = 21
+    EditLabel.Width = 67
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit11'
+    TabOrder = 11
+  end
+  object LabeledEdit12: TLabeledEdit
+    Left = 248
+    Top = 304
+    Width = 121
+    Height = 21
+    EditLabel.Width = 67
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit12'
+    TabOrder = 12
+  end
+  object LabeledEdit13: TLabeledEdit
+    Left = 224
+    Top = 176
+    Width = 121
+    Height = 21
+    EditLabel.Width = 67
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit13'
+    TabOrder = 13
+  end
+  object LabeledEdit14: TLabeledEdit
+    Left = 464
+    Top = 160
+    Width = 121
+    Height = 21
+    EditLabel.Width = 67
+    EditLabel.Height = 13
+    EditLabel.Caption = 'LabeledEdit14'
+    NumbersOnly = True
+    TabOrder = 14
+  end
+end

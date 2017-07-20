@@ -1,0 +1,13 @@
+inherited Form_mae1: TForm_mae1
+  BorderStyle = bsNone
+  Caption = 'Form_mae1'
+  ClientHeight = 519
+  ClientWidth = 837
+  ExplicitWidth = 837
+  ExplicitHeight = 519
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel1: TPanel
+    Visible = False
+  end
+end

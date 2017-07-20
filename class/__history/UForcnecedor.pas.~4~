@@ -1,0 +1,20 @@
+unit UForcnecedor;
+
+interface
+uses UPessoaJuridica;
+type TFornecedor = class(TPessoaJuridica)
+
+
+      private
+
+      protected
+
+      public
+
+
+
+end;
+
+implementation
+
+end.

@@ -1,0 +1,9 @@
+senha:
+
+associacao
+
+
+IMPORTANTE:
+
+Este certificado serve apenas para familialização com o uso de certificados digitais e assinatura digital, mas não é válido para consumir os Web Services da SEFAZ.
+

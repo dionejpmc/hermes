@@ -1,0 +1,20 @@
+unit UCliente;
+
+interface
+Uses UPessoa;
+type TCliente = Class (TPessoa)
+
+      Private
+
+      Protected
+
+        FCpf:String;
+
+      Public
+
+
+End;
+
+implementation
+
+end.

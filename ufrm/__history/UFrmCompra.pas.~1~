@@ -1,0 +1,25 @@
+unit UFrmCompra;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, ufrmmae, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.ExtCtrls;
+
+type
+  TForm_mae1 = class(TForm_mae)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_mae1: TForm_mae1;
+
+implementation
+
+{$R *.dfm}
+
+end.

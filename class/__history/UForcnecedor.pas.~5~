@@ -1,0 +1,21 @@
+unit UForcnecedor;
+
+interface
+uses UPessoaJuridica;
+type TFornecedor = class(TPessoaJuridica)
+
+
+      private
+
+      protected
+
+      public
+
+        constructor create;
+        destructor destroy;
+
+end;
+
+implementation
+
+end.
